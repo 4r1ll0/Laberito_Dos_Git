@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 1290561137897339272}
   - component: {fileID: 1011435615018967756}
   m_Layer: 0
-  m_Name: Cube
-  m_TagString: Untagged
+  m_Name: obstaculo
+  m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1751540785665890637}
   m_Layer: 0
   m_Name: muro
-  m_TagString: Untagged
+  m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
