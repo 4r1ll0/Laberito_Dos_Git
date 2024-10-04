@@ -23,5 +23,9 @@ public class MovPlayer : MonoBehaviour
     {
         other.CompareTag("Barro");
         speed = speed - 3;
+        if (speed <= -3)
+        {
+            speed = 5;
+        }
     }
 }
