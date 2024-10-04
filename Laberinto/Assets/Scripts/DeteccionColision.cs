@@ -28,9 +28,9 @@ public class DeteccionColision : MonoBehaviour
         }
     }
 
-    private void OnCollosionEnter (Collision other)
+    private void OnCollisionEnter (Collision other)
     {
-        if (other.gameObject.tag == "player")
+        if (other.gameObject.tag == "Player")
         {
             gameObject.GetComponent<MeshRenderer>().material = materialChoque;
             paredRoja = true;

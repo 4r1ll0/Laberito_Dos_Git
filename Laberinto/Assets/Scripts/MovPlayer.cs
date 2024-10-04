@@ -18,6 +18,10 @@ public class MovPlayer : MonoBehaviour
         movientoEjeZ = Input.GetAxis("Vertical") * Time.deltaTime * speed;
 
         transform.Translate(movientoEjeX,movientoEjeY,movientoEjeZ);
-
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        other.CompareTag("Barro");
+        speed = speed - 3;
     }
 }

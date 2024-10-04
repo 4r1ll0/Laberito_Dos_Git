@@ -14,7 +14,7 @@ public class DetectorMeta : MonoBehaviour
     public float tiempoDePartida = 0.0f;
     bool estaJugando = true;
 
-    void update()
+    void Update()
     {
         if (estaJugando == true)
         {
